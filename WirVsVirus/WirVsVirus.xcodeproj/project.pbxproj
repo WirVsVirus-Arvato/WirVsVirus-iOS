@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7BFC092423E59C008E83B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFC082423E59C008E83B3 /* AppDelegate.swift */; };
+		5D7BFC0B2423E59C008E83B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFC0A2423E59C008E83B3 /* SceneDelegate.swift */; };
+		5D7BFC0D2423E59C008E83B3 /* WVVHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFC0C2423E59C008E83B3 /* WVVHomeViewController.swift */; };
+		5D7BFC102423E59C008E83B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BFC0E2423E59C008E83B3 /* Main.storyboard */; };
+		5D7BFC122423E59F008E83B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BFC112423E59F008E83B3 /* Assets.xcassets */; };
+		5D7BFC152423E59F008E83B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BFC132423E59F008E83B3 /* LaunchScreen.storyboard */; };
+		5D7BFC202423E5A0008E83B3 /* WirVsVirusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFC1F2423E5A0008E83B3 /* WirVsVirusTests.swift */; };
+		5D7BFC2B2423E5A0008E83B3 /* WirVsVirusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BFC2A2423E5A0008E83B3 /* WirVsVirusUITests.swift */; };
+		7EF57A0664E743575DEC10C0 /* Pods_WirVsVirus_WirVsVirusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74F7B0B2EA6B3321606DC5A /* Pods_WirVsVirus_WirVsVirusUITests.framework */; };
+		DB6282C8924A3455F27116C6 /* Pods_WirVsVirus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221D41BFB79C73FF2D04A489 /* Pods_WirVsVirus.framework */; };
+		F3B8193CCEBBFEF6BE3262F6 /* Pods_WirVsVirusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF6255750A2119620F01D2E /* Pods_WirVsVirusTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D7BFC1C2423E5A0008E83B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7BFBFD2423E59C008E83B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7BFC042423E59C008E83B3;
+			remoteInfo = WirVsVirus;
+		};
+		5D7BFC272423E5A0008E83B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D7BFBFD2423E59C008E83B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D7BFC042423E59C008E83B3;
+			remoteInfo = WirVsVirus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E8DA9678E5307B63400792 /* Pods-WirVsVirusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirusTests.debug.xcconfig"; path = "Target Support Files/Pods-WirVsVirusTests/Pods-WirVsVirusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		221D41BFB79C73FF2D04A489 /* Pods_WirVsVirus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirVsVirus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF6255750A2119620F01D2E /* Pods_WirVsVirusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirVsVirusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BFC052423E59C008E83B3 /* WirVsVirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirVsVirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BFC082423E59C008E83B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D7BFC0A2423E59C008E83B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D7BFC0C2423E59C008E83B3 /* WVVHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVVHomeViewController.swift; sourceTree = "<group>"; };
+		5D7BFC0F2423E59C008E83B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D7BFC112423E59F008E83B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D7BFC142423E59F008E83B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D7BFC162423E59F008E83B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7BFC1B2423E5A0008E83B3 /* WirVsVirusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirVsVirusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BFC1F2423E5A0008E83B3 /* WirVsVirusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirVsVirusTests.swift; sourceTree = "<group>"; };
+		5D7BFC212423E5A0008E83B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7BFC262423E5A0008E83B3 /* WirVsVirusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirVsVirusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BFC2A2423E5A0008E83B3 /* WirVsVirusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirVsVirusUITests.swift; sourceTree = "<group>"; };
+		5D7BFC2C2423E5A0008E83B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E4A38464F59A59E9185154 /* Pods-WirVsVirusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirusTests.release.xcconfig"; path = "Target Support Files/Pods-WirVsVirusTests/Pods-WirVsVirusTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACF9F7688A67A8B1EABFEB58 /* Pods-WirVsVirus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirus.release.xcconfig"; path = "Target Support Files/Pods-WirVsVirus/Pods-WirVsVirus.release.xcconfig"; sourceTree = "<group>"; };
+		B66DE8B784508D22B569EBEB /* Pods-WirVsVirus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirus.debug.xcconfig"; path = "Target Support Files/Pods-WirVsVirus/Pods-WirVsVirus.debug.xcconfig"; sourceTree = "<group>"; };
+		D5723A02570C537D094F0233 /* Pods-WirVsVirus-WirVsVirusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirus-WirVsVirusUITests.debug.xcconfig"; path = "Target Support Files/Pods-WirVsVirus-WirVsVirusUITests/Pods-WirVsVirus-WirVsVirusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E396839B7CEEB28DD7B2E1B1 /* Pods-WirVsVirus-WirVsVirusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirVsVirus-WirVsVirusUITests.release.xcconfig"; path = "Target Support Files/Pods-WirVsVirus-WirVsVirusUITests/Pods-WirVsVirus-WirVsVirusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F74F7B0B2EA6B3321606DC5A /* Pods_WirVsVirus_WirVsVirusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirVsVirus_WirVsVirusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7BFC022423E59C008E83B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6282C8924A3455F27116C6 /* Pods_WirVsVirus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC182423E5A0008E83B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B8193CCEBBFEF6BE3262F6 /* Pods_WirVsVirusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC232423E5A0008E83B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF57A0664E743575DEC10C0 /* Pods_WirVsVirus_WirVsVirusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24440E997EE851C1440FBAE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221D41BFB79C73FF2D04A489 /* Pods_WirVsVirus.framework */,
+				F74F7B0B2EA6B3321606DC5A /* Pods_WirVsVirus_WirVsVirusUITests.framework */,
+				3BF6255750A2119620F01D2E /* Pods_WirVsVirusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C2873D98DECC90544D43A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B66DE8B784508D22B569EBEB /* Pods-WirVsVirus.debug.xcconfig */,
+				ACF9F7688A67A8B1EABFEB58 /* Pods-WirVsVirus.release.xcconfig */,
+				D5723A02570C537D094F0233 /* Pods-WirVsVirus-WirVsVirusUITests.debug.xcconfig */,
+				E396839B7CEEB28DD7B2E1B1 /* Pods-WirVsVirus-WirVsVirusUITests.release.xcconfig */,
+				20E8DA9678E5307B63400792 /* Pods-WirVsVirusTests.debug.xcconfig */,
+				A9E4A38464F59A59E9185154 /* Pods-WirVsVirusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D7BFBFC2423E59C008E83B3 = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC072423E59C008E83B3 /* WirVsVirus */,
+				5D7BFC1E2423E5A0008E83B3 /* WirVsVirusTests */,
+				5D7BFC292423E5A0008E83B3 /* WirVsVirusUITests */,
+				5D7BFC062423E59C008E83B3 /* Products */,
+				4C2873D98DECC90544D43A9C /* Pods */,
+				24440E997EE851C1440FBAE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7BFC062423E59C008E83B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC052423E59C008E83B3 /* WirVsVirus.app */,
+				5D7BFC1B2423E5A0008E83B3 /* WirVsVirusTests.xctest */,
+				5D7BFC262423E5A0008E83B3 /* WirVsVirusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7BFC072423E59C008E83B3 /* WirVsVirus */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC082423E59C008E83B3 /* AppDelegate.swift */,
+				5D7BFC0A2423E59C008E83B3 /* SceneDelegate.swift */,
+				5D7BFC0C2423E59C008E83B3 /* WVVHomeViewController.swift */,
+				5D7BFC392423E8E7008E83B3 /* Areas */,
+				5D7BFC382423E8D4008E83B3 /* Ressourcen */,
+			);
+			path = WirVsVirus;
+			sourceTree = "<group>";
+		};
+		5D7BFC1E2423E5A0008E83B3 /* WirVsVirusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC1F2423E5A0008E83B3 /* WirVsVirusTests.swift */,
+				5D7BFC212423E5A0008E83B3 /* Info.plist */,
+			);
+			path = WirVsVirusTests;
+			sourceTree = "<group>";
+		};
+		5D7BFC292423E5A0008E83B3 /* WirVsVirusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC2A2423E5A0008E83B3 /* WirVsVirusUITests.swift */,
+				5D7BFC2C2423E5A0008E83B3 /* Info.plist */,
+			);
+			path = WirVsVirusUITests;
+			sourceTree = "<group>";
+		};
+		5D7BFC382423E8D4008E83B3 /* Ressourcen */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BFC0E2423E59C008E83B3 /* Main.storyboard */,
+				5D7BFC112423E59F008E83B3 /* Assets.xcassets */,
+				5D7BFC132423E59F008E83B3 /* LaunchScreen.storyboard */,
+				5D7BFC162423E59F008E83B3 /* Info.plist */,
+			);
+			path = Ressourcen;
+			sourceTree = "<group>";
+		};
+		5D7BFC392423E8E7008E83B3 /* Areas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Areas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7BFC042423E59C008E83B3 /* WirVsVirus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7BFC2F2423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirus" */;
+			buildPhases = (
+				EB25375A2C14ED9B88BE0DB5 /* [CP] Check Pods Manifest.lock */,
+				5D7BFC012423E59C008E83B3 /* Sources */,
+				5D7BFC022423E59C008E83B3 /* Frameworks */,
+				5D7BFC032423E59C008E83B3 /* Resources */,
+				D0E6266BA2A5045AB44E9E97 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirVsVirus;
+			productName = WirVsVirus;
+			productReference = 5D7BFC052423E59C008E83B3 /* WirVsVirus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D7BFC1A2423E5A0008E83B3 /* WirVsVirusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7BFC322423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirusTests" */;
+			buildPhases = (
+				4E98F9C9B579B57F74C028FA /* [CP] Check Pods Manifest.lock */,
+				5D7BFC172423E5A0008E83B3 /* Sources */,
+				5D7BFC182423E5A0008E83B3 /* Frameworks */,
+				5D7BFC192423E5A0008E83B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7BFC1D2423E5A0008E83B3 /* PBXTargetDependency */,
+			);
+			name = WirVsVirusTests;
+			productName = WirVsVirusTests;
+			productReference = 5D7BFC1B2423E5A0008E83B3 /* WirVsVirusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D7BFC252423E5A0008E83B3 /* WirVsVirusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7BFC352423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirusUITests" */;
+			buildPhases = (
+				D596D743DA60806A15CD8869 /* [CP] Check Pods Manifest.lock */,
+				5D7BFC222423E5A0008E83B3 /* Sources */,
+				5D7BFC232423E5A0008E83B3 /* Frameworks */,
+				5D7BFC242423E5A0008E83B3 /* Resources */,
+				1F001968E18E1903247CCF78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7BFC282423E5A0008E83B3 /* PBXTargetDependency */,
+			);
+			name = WirVsVirusUITests;
+			productName = WirVsVirusUITests;
+			productReference = 5D7BFC262423E5A0008E83B3 /* WirVsVirusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7BFBFD2423E59C008E83B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Böhm-de Silva, Christoph";
+				TargetAttributes = {
+					5D7BFC042423E59C008E83B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5D7BFC1A2423E5A0008E83B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5D7BFC042423E59C008E83B3;
+					};
+					5D7BFC252423E5A0008E83B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5D7BFC042423E59C008E83B3;
+					};
+				};
+			};
+			buildConfigurationList = 5D7BFC002423E59C008E83B3 /* Build configuration list for PBXProject "WirVsVirus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D7BFBFC2423E59C008E83B3;
+			productRefGroup = 5D7BFC062423E59C008E83B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7BFC042423E59C008E83B3 /* WirVsVirus */,
+				5D7BFC1A2423E5A0008E83B3 /* WirVsVirusTests */,
+				5D7BFC252423E5A0008E83B3 /* WirVsVirusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D7BFC032423E59C008E83B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7BFC152423E59F008E83B3 /* LaunchScreen.storyboard in Resources */,
+				5D7BFC122423E59F008E83B3 /* Assets.xcassets in Resources */,
+				5D7BFC102423E59C008E83B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC192423E5A0008E83B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC242423E5A0008E83B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F001968E18E1903247CCF78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus-WirVsVirusUITests/Pods-WirVsVirus-WirVsVirusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus-WirVsVirusUITests/Pods-WirVsVirus-WirVsVirusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus-WirVsVirusUITests/Pods-WirVsVirus-WirVsVirusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E98F9C9B579B57F74C028FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WirVsVirusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E6266BA2A5045AB44E9E97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus/Pods-WirVsVirus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus/Pods-WirVsVirus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WirVsVirus/Pods-WirVsVirus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D596D743DA60806A15CD8869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WirVsVirus-WirVsVirusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB25375A2C14ED9B88BE0DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WirVsVirus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7BFC012423E59C008E83B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7BFC0D2423E59C008E83B3 /* WVVHomeViewController.swift in Sources */,
+				5D7BFC092423E59C008E83B3 /* AppDelegate.swift in Sources */,
+				5D7BFC0B2423E59C008E83B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC172423E5A0008E83B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7BFC202423E5A0008E83B3 /* WirVsVirusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7BFC222423E5A0008E83B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7BFC2B2423E5A0008E83B3 /* WirVsVirusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D7BFC1D2423E5A0008E83B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7BFC042423E59C008E83B3 /* WirVsVirus */;
+			targetProxy = 5D7BFC1C2423E5A0008E83B3 /* PBXContainerItemProxy */;
+		};
+		5D7BFC282423E5A0008E83B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D7BFC042423E59C008E83B3 /* WirVsVirus */;
+			targetProxy = 5D7BFC272423E5A0008E83B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D7BFC0E2423E59C008E83B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D7BFC0F2423E59C008E83B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D7BFC132423E59F008E83B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D7BFC142423E59F008E83B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D7BFC2D2423E5A0008E83B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D7BFC2E2423E5A0008E83B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D7BFC302423E5A0008E83B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66DE8B784508D22B569EBEB /* Pods-WirVsVirus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = "$(SRCROOT)/WirVsVirus/Ressourcen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D7BFC312423E5A0008E83B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF9F7688A67A8B1EABFEB58 /* Pods-WirVsVirus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = "$(SRCROOT)/WirVsVirus/Ressourcen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D7BFC332423E5A0008E83B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E8DA9678E5307B63400792 /* Pods-WirVsVirusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = WirVsVirusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirVsVirus.app/WirVsVirus";
+			};
+			name = Debug;
+		};
+		5D7BFC342423E5A0008E83B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E4A38464F59A59E9185154 /* Pods-WirVsVirusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = WirVsVirusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirVsVirus.app/WirVsVirus";
+			};
+			name = Release;
+		};
+		5D7BFC362423E5A0008E83B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5723A02570C537D094F0233 /* Pods-WirVsVirus-WirVsVirusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = WirVsVirusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirVsVirus;
+			};
+			name = Debug;
+		};
+		5D7BFC372423E5A0008E83B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E396839B7CEEB28DD7B2E1B1 /* Pods-WirVsVirus-WirVsVirusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC7C3C58UN;
+				INFOPLIST_FILE = WirVsVirusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARVATO.WirVsVirusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirVsVirus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7BFC002423E59C008E83B3 /* Build configuration list for PBXProject "WirVsVirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7BFC2D2423E5A0008E83B3 /* Debug */,
+				5D7BFC2E2423E5A0008E83B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7BFC2F2423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7BFC302423E5A0008E83B3 /* Debug */,
+				5D7BFC312423E5A0008E83B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7BFC322423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7BFC332423E5A0008E83B3 /* Debug */,
+				5D7BFC342423E5A0008E83B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7BFC352423E5A0008E83B3 /* Build configuration list for PBXNativeTarget "WirVsVirusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7BFC362423E5A0008E83B3 /* Debug */,
+				5D7BFC372423E5A0008E83B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D7BFBFD2423E59C008E83B3 /* Project object */;
+}
